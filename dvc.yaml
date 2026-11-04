@@ -1,0 +1,8 @@
+stages:
+  remediar:
+    cmd: python remediar_dataset.py
+    deps:
+    - pacientes_salucompleta_v1.csv
+    - remediar_dataset.py
+    outs:
+    - pacientes_salucompleta_v2.csv

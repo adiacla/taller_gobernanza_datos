@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  remediar:
+    cmd: python remediar_dataset.py
+    deps:
+    - path: pacientes_salucompleta_v1.csv
+      hash: md5
+      md5: 99b747635a2ebb187d7bd9d69e583e0f
+      size: 449015
+    - path: remediar_dataset.py
+      hash: md5
+      md5: d16847ccaeb8a3cadef392497ab7d094
+      size: 2914
+    outs:
+    - path: pacientes_salucompleta_v2.csv
+      hash: md5
+      md5: 437b18a2f2cd33ecfa7943d4a72989e7
+      size: 191688
