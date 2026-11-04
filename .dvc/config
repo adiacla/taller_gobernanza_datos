@@ -1,0 +1,5 @@
+[core]
+    analytics = false
+    remote = almacen_taller
+['remote "almacen_taller"']
+    url = ../../almacen_dvc_salucompleta

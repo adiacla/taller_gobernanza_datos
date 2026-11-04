@@ -1,0 +1,5 @@
+outs:
+- md5: 99b747635a2ebb187d7bd9d69e583e0f
+  size: 449015
+  hash: md5
+  path: pacientes_salucompleta_v1.csv
