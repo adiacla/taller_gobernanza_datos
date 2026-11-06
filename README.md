@@ -20,7 +20,7 @@ Antes de comenzar, asegúrate de tener instalado en tu sistema:
 
 ---
 
-## 🚀 Instrucciones de Uso en VS Code
+##  Instrucciones de Uso en VS Code
 
 Sigue estos pasos detallados para clonar, configurar y ejecutar el entorno de desarrollo directamente en Visual Studio Code.
 
