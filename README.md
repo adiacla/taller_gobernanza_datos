@@ -48,11 +48,9 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3. Instalar Extensiones Recomendadas en VS Code
-Para trabajar cómodamente, instala las siguientes extensiones desde el Marketplace de VS Code (`Ctrl + Shift + X`):
-*   **Python** (Microsoft)
-*   **Jupyter** (Microsoft) - *Necesaria para abrir el archivo .ipynb*
-*   **DVC** (Iterative) - *Opcional, proporciona una interfaz gráfica para DVC*
+### 3. Instalar la Extensión Recomendada en VS Code
+Para gestionar los datos y experimentos de forma visual dentro del entorno, instala la siguiente extensión desde el Marketplace de VS Code (`Ctrl + Shift + X`):
+*   **DVC Extension Pack** (de lakeFS) - *Instala el entorno completo: DVC para VS Code, soporte de autocompletado YAML para pipelines y herramientas esenciales de Python.*
 
 ### 4. Instalar las Dependencias
 Con el entorno virtual activado en tu terminal de VS Code, instala las librerías necesarias:
@@ -66,7 +64,7 @@ El repositorio no incluye los archivos `.csv` pesados por defecto, solo sus punt
 ```bash
 dvc pull
 ```
-*(Nota: Asegúrate de tener configuradas las credenciales del almacenamiento remoto de DVC, p. ej., Google Drive o S3).*
+*(Nota: Asegúrate de tener configuradas las credenciales de acceso al almacenamiento remoto de DVC).*
 
 ---
 
