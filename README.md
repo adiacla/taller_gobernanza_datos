@@ -6,12 +6,12 @@ El proyecto utiliza **DVC (Data Version Control)** para la gestión y el version
 
 ---
 
-## 🎯 Objetivo del Repositorio
+##  Objetivo del Repositorio
 El objetivo principal es implementar un proceso sistemático de auditoría que mida, valide y documente las dimensiones de calidad de los datos de los pacientes (versiones v1 y v2), asegurando que los datos cumplan con los requisitos normativos antes de su uso en modelos analíticos o de toma de decisiones.
 
 ---
 
-## 🛠️ Requisitos Previos
+##  Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado en tu sistema:
 *   [Python 3.10+](https://python.org)
@@ -68,7 +68,7 @@ dvc pull
 
 ---
 
-## 📂 Estructura Principal del Proyecto
+##  Estructura Principal del Proyecto
 
 *   `Auditoria_Dataset_SaluCompleta_ISO5259.ipynb`: Notebook de Jupyter con el análisis de calidad de datos paso a paso.
 *   `Auditoria_Dataset_SaluCompleta_ISO5259.pptx`: Presentación ejecutiva con las conclusiones y métricas de la auditoría.
