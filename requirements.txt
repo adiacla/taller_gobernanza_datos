@@ -1,0 +1,16 @@
+# Taller de auditoría de datos - EPS SaluCompleta (ISO/IEC 5259 e ISO/IEC 42001)
+
+# Datos y análisis
+numpy>=1.26
+pandas>=2.0
+faker>=24.0
+
+# Gráficos
+matplotlib>=3.8
+seaborn>=0.13
+
+# Versionado de datos
+dvc>=3.0
+
+# Ejecutar el cuaderno en VS Code
+ipykernel>=6.29
